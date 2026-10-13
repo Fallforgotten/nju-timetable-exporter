@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh-CN"><meta charset="UTF-8"><title>南大课表导出</title>
+<style>body{width:360px;margin:0;padding:20px;box-sizing:border-box;font:14px/1.7 system-ui;color:#243b32}h2{margin:0 0 8px;font-size:20px}button,a{font:inherit}button{cursor:pointer;padding:9px 12px;margin:5px 0;border:1px solid #cbd9d0;border-radius:7px;background:#fff}button:disabled{cursor:default;opacity:.5}#export-all{width:100%;background:#276b53;color:white}#status{background:#eef5ef;padding:12px;border-radius:8px;white-space:pre-wrap}input,textarea{width:100%;box-sizing:border-box}small{color:#68746d}a{color:#276b53}summary{cursor:pointer}label{display:block}</style>
+<h2>南大课表导出 · v0.21.0</h2><small>仅适配南京大学本科教务系统</small>
+<p><b>1. 打开课表并登录</b><br>选择“学生组”（不是本科组）→“全部课程”，选好学期并搜索，回到第一页。</p>
+<button id="open-school">打开南大全部课程</button><button id="check">检查当前页面</button>
+<p id="status" role="status">正在检查当前页面…</p>
+<p><b>2. 确认上方学期，再开始导出</b></p><button id="export-all" disabled>导出当前筛选的全部课程</button>
+<p><b>3. 导出完成后导入网页</b><br><a id="open-import" href="https://cengke-parse-probe.app.workbuddy.host/" target="_blank" rel="noopener noreferrer">打开蹭课网导入</a><br><small>选择刚下载的 JSON → 预览 → 确认导入。</small></p>
+<details id="advanced"><summary>更多选项 / 排查问题</summary><button id="open-external">打开南大校外访问入口</button><label for="term">无法识别时填写完整学期</label><input id="term" placeholder="2026-2027学年 第1学期"><button id="export" disabled>仅导出当前页</button><textarea id="diagnostic" aria-label="结构诊断（不含课程内容）" readonly hidden rows="6"></textarea></details>
+<p><small>请自行登录学校页面。插件不读取密码、Cookie或学生名单，不自动上传。自动翻页期间不要关闭学校页面或改变筛选。</small></p>
+<script src="popup.js"></script></html>

@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "蹭课网 · 南大课表导出（试验版）",
+  "version": "0.21.0",
+  "description": "仅适配南京大学本科教务系统。用户点击后读取当前课表列表，导出课程字段供本人本地导入。",
+  "permissions": ["activeTab", "scripting"],
+  "action": { "default_popup": "popup.html" }
+}

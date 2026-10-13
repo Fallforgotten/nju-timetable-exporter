@@ -1,0 +1,66 @@
+{
+  "format": "cengke-nju-visible-v1",
+  "isMock": true,
+  "term": "2026-2027学年 第1学期",
+  "source": "schoolwide",
+  "scope": "all-filtered-pages",
+  "complete": true,
+  "rows": [
+    {
+      "code": "DEMO01",
+      "name": "模拟Python程序设计",
+      "teacher": "模拟教师甲",
+      "campus": "测试东校区",
+      "department": "测试计算机学院",
+      "schedule": "周一 5-6节 1-3周 测试教室A"
+    },
+    {
+      "code": "DEMO02",
+      "name": "模拟音乐鉴赏",
+      "teacher": "模拟教师乙",
+      "campus": "测试西校区",
+      "department": "测试艺术学院",
+      "schedule": "周一 7-8节 1-3周(单) 测试教室B"
+    },
+    {
+      "code": "DEMO03",
+      "name": "模拟数学",
+      "teacher": "模拟教师丙",
+      "campus": "测试东校区",
+      "department": "测试数学学院",
+      "schedule": "周二 3-4节 1-3周(双) 测试教室C"
+    },
+    {
+      "code": "DEMO04",
+      "name": "模拟实验实践",
+      "teacher": "模拟教师丁",
+      "campus": "测试西校区",
+      "department": "测试学院",
+      "schedule": "周一 5节 1周 测试教室D, 周一 7节 1周 测试教室E"
+    },
+    {
+      "code": "DEMO05",
+      "name": "模拟自由创作",
+      "teacher": "模拟教师戊",
+      "campus": "测试东校区",
+      "department": "测试艺术学院",
+      "schedule": "自由时间 1-3周 测试实践室"
+    },
+    {
+      "code": "DEMO06",
+      "name": "模拟待补课程",
+      "teacher": "模拟教师己",
+      "campus": "测试西校区",
+      "department": "测试学院",
+      "schedule": ""
+    },
+    {
+      "code": "DEMO07",
+      "name": "模拟混合安排",
+      "teacher": "模拟教师庚",
+      "campus": "测试东校区",
+      "department": "测试学院",
+      "schedule": "自由时间 1周 测试地点, 周一 5节 2周 测试教室F"
+    }
+  ]
+}
